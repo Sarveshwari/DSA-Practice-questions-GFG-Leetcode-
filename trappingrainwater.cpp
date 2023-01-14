@@ -26,7 +26,7 @@ class Solution{
         {
             ans+=(min(left[i], right[i]))-arr[i];
         }
-        
+      
         return ans;
     }
 };
