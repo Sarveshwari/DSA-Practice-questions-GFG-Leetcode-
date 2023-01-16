@@ -1,8 +1,7 @@
 class Solution
 {
 public:
-    // Function to partition the array around the range such
-    // that array is divided into three parts.
+    // Function to partition the array around the range such that array is divided into three parts.
 
     // Dutch Flag Algorithm Approach ( used whenever an array is to be partitioned.)
 
