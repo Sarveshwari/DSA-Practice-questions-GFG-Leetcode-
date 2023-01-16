@@ -4,7 +4,7 @@ public:
     // Function to partition the array around the range such
     // that array is divided into three parts.
 
-    // Dutch Flag Algorithm Approach ( used whenver an array is to be partitioned.)
+    // Dutch Flag Algorithm Approach ( used whenever an array is to be partitioned.)
 
     void threeWayPartition(vector<int> &array, int a, int b)
     {
