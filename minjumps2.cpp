@@ -1,5 +1,5 @@
 int minJumps(int arr[], int n){
-        // Your code here
+       
         if(n<=1)
         return 0;
         
