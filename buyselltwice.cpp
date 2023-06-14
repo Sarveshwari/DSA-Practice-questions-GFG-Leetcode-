@@ -30,6 +30,4 @@ int maxProfit(vector<int>&price){
     }
     
     int result=profit[n-1];
-
-
 }
