@@ -1,4 +1,6 @@
- long long maxSubarraySum(int arr[], int n){
+//Kadene's Algorithm 
+
+long long maxSubarraySum(int arr[], int n){
         
         long long sum=0;
         long long maxi=arr[0];
