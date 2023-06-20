@@ -1,3 +1,5 @@
+//Check if BST or no
+
 int func(Node*root, Node* &prev){
         if(root){
             if(!(func(root->left, prev)))
