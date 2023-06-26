@@ -15,7 +15,5 @@
             right_prod*=nums[i];
         }
 
-
-
     return result;
     }
