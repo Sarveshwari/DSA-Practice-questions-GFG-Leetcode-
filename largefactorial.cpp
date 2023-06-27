@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     vector<int> factorial(int N){
       
       vector<int>res;
@@ -28,4 +27,4 @@ public:
       return res;
         
     }
-};
+
