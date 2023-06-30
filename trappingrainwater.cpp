@@ -1,6 +1,5 @@
 class Solution{
 
-    // Function to find the trapped water between the blocks.
     public:
     long long trappingWater(int arr[], int n){
         
