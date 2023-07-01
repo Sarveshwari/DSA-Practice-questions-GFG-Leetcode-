@@ -1,6 +1,6 @@
 bool ispar(string x)
     {
-        // Your code here
+       
         stack<char>s;
         
         for(int i=0; i<x.length(); i++)
