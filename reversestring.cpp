@@ -1,5 +1,3 @@
-
-
 string reverseWord(string str){
     
     string rev = "";
