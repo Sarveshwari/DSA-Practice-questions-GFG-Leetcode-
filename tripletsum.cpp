@@ -1,5 +1,4 @@
-
-    //Function to find if there exists a triplet in the array A[] which sums up to X.
+//Function to find if there exists a triplet in the array A[] which sums up to X.
 
     bool find3Numbers(int A[], int n, int X)
     {
