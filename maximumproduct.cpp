@@ -1,7 +1,6 @@
 class Solution{
 public:
 
-	// Function to find maximum product subarray
 	long long maxProduct(vector<int> arr, int n) {
 	    
 	    long long maxp = INT_MIN, prod=1;
