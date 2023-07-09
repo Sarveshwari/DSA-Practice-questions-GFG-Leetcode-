@@ -1,5 +1,4 @@
-class Solution{
-  public:
+
     // arr[] : the input array
     // N : size of the array arr[]
     
@@ -37,4 +36,3 @@ class Solution{
         
         return ans;
     }
-};
