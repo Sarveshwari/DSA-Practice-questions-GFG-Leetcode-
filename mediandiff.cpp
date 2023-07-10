@@ -1,6 +1,4 @@
-class Solution
-{
-public:
+
     double MedianOfArrays(vector<int> &array1, vector<int> &array2)
     {
 
@@ -44,4 +42,3 @@ public:
 
         return 0.0;
     }
-};
