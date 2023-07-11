@@ -1,6 +1,4 @@
-class Solution
-{
-public:
+
     int smallestSubWithSum(int arr[], int n, int x)
     {
         int curr_sum = 0, min_len = n + 1;
@@ -24,4 +22,3 @@ public:
 
         return min_len;
     }
-};
