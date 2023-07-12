@@ -1,6 +1,4 @@
-class Solution{
 
-    public:
     long long trappingWater(int arr[], int n){
         
         int left[n];
@@ -28,4 +26,4 @@ class Solution{
       
         return ans;
     }
-};
+
