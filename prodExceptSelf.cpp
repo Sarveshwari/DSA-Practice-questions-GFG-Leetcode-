@@ -1,8 +1,6 @@
 //eg: nums=[1,2,3,4]
 //result=[24,12,8,6]
 
-class Solution {
-public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n=nums.size();
         vector<int> result(n,1);
@@ -24,4 +22,3 @@ public:
 
     return result;
     }
-};
