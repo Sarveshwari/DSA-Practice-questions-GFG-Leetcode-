@@ -1,6 +1,4 @@
-class Solution
-{
-    public:
+
     //Function to find all elements in array that appear more than n/k times.
     int countOccurence(int arr[], int n, int k) {
         
@@ -23,4 +21,3 @@ class Solution
     return count;
     
     }
-};
