@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     void setZeroes(vector<vector<int>>& matrix) {
   int col0 = 1;
   for (int i = 0; i < matrix.size(); i++) {
@@ -43,4 +42,3 @@ public:
     }
   }
 }
-};
