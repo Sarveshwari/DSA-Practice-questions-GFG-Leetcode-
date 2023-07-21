@@ -1,9 +1,5 @@
 //find median
 
-class Solution
-{
-public:
-	public:
 		int find_median(vector<int> v)
 		{
 		   int n=v.size();
@@ -23,4 +19,4 @@ public:
 		   
 		   return median;
 		}
-};
+
