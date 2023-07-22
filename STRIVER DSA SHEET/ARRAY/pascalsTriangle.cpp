@@ -1,6 +1,3 @@
-class Solution {
-public:
-
 
 vector<int> generateRow(int row)
 {
@@ -31,4 +28,4 @@ vector<int> generateRow(int row)
 
         
     }
-};
+
