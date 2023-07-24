@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     int lengthOfLastWord(string s) {
 
             int i=s.length()-1;
@@ -24,4 +23,4 @@ public:
 
             return count;
     }
-};
+
