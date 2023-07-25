@@ -1,7 +1,5 @@
 int majorityElement(int a[], int size)
     {
-        
-        // your code here
         int res=0, count=0;
         
         for(int i=0; i<size; i++)
