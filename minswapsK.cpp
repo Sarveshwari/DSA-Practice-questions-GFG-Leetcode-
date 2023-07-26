@@ -1,9 +1,6 @@
 //Minimum number of swaps required to bring elements less than and equal to k together
 //two pointer technique and sliding window
 
-class Solution
-{
-public:
     int minSwap(int arr[], int n, int k)
     {
 
@@ -38,4 +35,4 @@ public:
 
         return ans;
     }
-};
+
