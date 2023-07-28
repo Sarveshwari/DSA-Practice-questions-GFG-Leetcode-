@@ -1,5 +1,4 @@
 int getSingle(int arr[], int n) {
-	    // code here
 	    
 	    map<int, int>m;
 	    int flag=0;
