@@ -1,5 +1,3 @@
-class Solution{
-public:
 
 	long long maxProduct(vector<int> arr, int n) {
 	    
@@ -25,4 +23,4 @@ public:
 	    
 	    return maxp;
 	}
-};
+
