@@ -1,6 +1,5 @@
-
-    // arr[] : the input array
-    // N : size of the array arr[]
+// arr[] : the input array
+// N : size of the array arr[]
     
     //Function to return length of longest subsequence of consecutive integers.
     int findLongestConseqSubseq(int arr[], int N)
