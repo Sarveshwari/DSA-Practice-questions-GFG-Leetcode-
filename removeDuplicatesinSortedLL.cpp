@@ -1,6 +1,5 @@
 Node *removeDuplicates(Node *head)
 {
- // your code goes here
  
  if(head==NULL)
  {
