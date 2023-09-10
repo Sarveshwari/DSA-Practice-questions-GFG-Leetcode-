@@ -1,6 +1,4 @@
-class Solution
-{
-    public:
+
     //Function to remove duplicates from unsorted linked list.
     Node * removeDuplicates( Node *head) 
     {
@@ -34,4 +32,4 @@ class Solution
      
      
     }
-};
+
