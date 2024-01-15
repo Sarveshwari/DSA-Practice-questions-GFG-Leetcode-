@@ -10,7 +10,6 @@ public:
     // Initialize your data structure.
     Deque(int n)
     {
-        // Write your code here.
         size=n;
         arr=new int[size];
         front=-1;
@@ -21,7 +20,6 @@ public:
     // Pushes 'X' in the front of the deque. Returns true if it gets pushed into the deque, and false otherwise.
     bool pushFront(int x)
     {
-        // Write your code here.
          if(isFull() )
         {
             return false;
@@ -48,7 +46,6 @@ public:
     // Pushes 'X' in the back of the deque. Returns true if it gets pushed into the deque, and false otherwise.
     bool pushRear(int x)
     {
-        // Write your code here.
         if(isFull() )
         {
             return false;
@@ -76,7 +73,6 @@ public:
     // Pops an element from the front of the deque. Returns -1 if the deque is empty, otherwise returns the popped element.
     int popFront()
     {
-        // Write your code here.
         if(isEmpty())
         {
             return -1;
@@ -104,7 +100,6 @@ public:
     // Pops an element from the back of the deque. Returns -1 if the deque is empty, otherwise returns the popped element.
     int popRear()
     {
-        // Write your code here.
         if(isEmpty())
         {
             return -1;
@@ -132,7 +127,6 @@ public:
     // Returns the first element of the deque. If the deque is empty, it returns -1.
     int getFront()
     {
-        // Write your code here.
         if(isEmpty())
         {
             return -1;
@@ -160,7 +154,6 @@ public:
     // Returns true if the deque is empty. Otherwise returns false.
     bool isEmpty()
     {
-        // Write your code here.
         if(front==-1)
         {
             return true;
@@ -173,7 +166,6 @@ public:
     // Returns true if the deque is full. Otherwise returns false.
     bool isFull()
     {
-        // Write your code here.
         if((front==0 && rear==size-1) ||(front!=0 && rear==(front-1)%(size-1)))
         {
             return true;
