@@ -18,7 +18,6 @@ void solve(stack<int>& s, int x)
 
 stack<int> pushAtBottom(stack<int>& myStack, int x) 
 {
-    // Write your code here.
     solve(myStack, x);
     return myStack;
 }
