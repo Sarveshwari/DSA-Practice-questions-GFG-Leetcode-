@@ -12,7 +12,6 @@ public:
     
     NStack(int N, int S)
     {
-        // Write your code here.
         n=N;
         s=S;
 
