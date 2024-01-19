@@ -8,7 +8,7 @@ class CircularQueue{
     public:
     // Initialize your data structure.
     CircularQueue(int n){
-        // Write your code here.
+     
         size=n;
         arr=new int[size];
         front=-1;
