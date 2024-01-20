@@ -17,7 +17,6 @@ public :
 //Function to push an element x in a queue.
 void MyQueue :: push(int x)
 {
-        // Your Code
         if(rear==100005)
         {
             return;
