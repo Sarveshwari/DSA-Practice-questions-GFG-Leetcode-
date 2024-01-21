@@ -1,6 +1,6 @@
 #include <bits/stdc++.h> 
 int findMinimumCost(string str) {
-  // Write your code here
+
   if(str.length()%2==1)
   {
     return -1;
